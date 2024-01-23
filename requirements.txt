@@ -1,0 +1,5 @@
+collection==0.1.6
+matplotlib==3.8.2
+numpy==1.26.3
+torch==2.1.0
+torchtext==0.6.0

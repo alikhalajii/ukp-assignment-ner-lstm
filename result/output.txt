@@ -1,0 +1,61 @@
+Setup 1:
+
+Training with learning rate: 0.001, weight decay: 1e-05, with StepLR scheduler (step_size=5, gamma=0.2)
+
+ Model training begins... 
+
+Epoch  1  |  Learning rate: 1e-03  |  Training loss = 0.2497  |  Validiation loss = 0.3650  |  Macro-averaged F1 score on dev data = 0.3764
+Epoch  2  |  Learning rate: 1e-03  |  Training loss = 0.2108  |  Validiation loss = 0.3319  |  Macro-averaged F1 score on dev data = 0.4174
+Epoch  3  |  Learning rate: 1e-03  |  Training loss = 0.1977  |  Validiation loss = 0.3152  |  Macro-averaged F1 score on dev data = 0.4755
+Epoch  4  |  Learning rate: 1e-03  |  Training loss = 0.1896  |  Validiation loss = 0.3025  |  Macro-averaged F1 score on dev data = 0.4862
+Epoch  5  |  Learning rate: 1e-03  |  Training loss = 0.1851  |  Validiation loss = 0.2947  |  Macro-averaged F1 score on dev data = 0.5079
+Epoch  6  |  Learning rate: 2e-04  |  Training loss = 0.1725  |  Validiation loss = 0.2577  |  Macro-averaged F1 score on dev data = 0.5531
+Epoch  7  |  Learning rate: 2e-04  |  Training loss = 0.1666  |  Validiation loss = 0.2553  |  Macro-averaged F1 score on dev data = 0.5574
+Epoch  8  |  Learning rate: 2e-04  |  Training loss = 0.1639  |  Validiation loss = 0.2557  |  Macro-averaged F1 score on dev data = 0.5551
+Epoch  9  |  Learning rate: 2e-04  |  Training loss = 0.1616  |  Validiation loss = 0.2539  |  Macro-averaged F1 score on dev data = 0.5543
+Epoch 10  |  Learning rate: 2e-04  |  Training loss = 0.1594  |  Validiation loss = 0.2535  |  Macro-averaged F1 score on dev data = 0.5655
+Epoch 11  |  Learning rate: 4e-05  |  Training loss = 0.1599  |  Validiation loss = 0.2416  |  Macro-averaged F1 score on dev data = 0.5807
+Epoch 12  |  Learning rate: 4e-05  |  Training loss = 0.1576  |  Validiation loss = 0.2405  |  Macro-averaged F1 score on dev data = 0.5816
+Epoch 13  |  Learning rate: 4e-05  |  Training loss = 0.1573  |  Validiation loss = 0.2416  |  Macro-averaged F1 score on dev data = 0.5805
+Epoch 14  |  Learning rate: 4e-05  |  Training loss = 0.1558  |  Validiation loss = 0.2418  |  Macro-averaged F1 score on dev data = 0.5787
+Epoch 15  |  Learning rate: 4e-05  |  Training loss = 0.1555  |  Validiation loss = 0.2427  |  Macro-averaged F1 score on dev data = 0.5827
+Epoch 16  |  Learning rate: 8e-06  |  Training loss = 0.1574  |  Validiation loss = 0.2380  |  Macro-averaged F1 score on dev data = 0.5908
+Epoch 17  |  Learning rate: 8e-06  |  Training loss = 0.1553  |  Validiation loss = 0.2379  |  Macro-averaged F1 score on dev data = 0.5906
+Epoch 18  |  Learning rate: 8e-06  |  Training loss = 0.1558  |  Validiation loss = 0.2386  |  Macro-averaged F1 score on dev data = 0.5912
+Epoch 19  |  Learning rate: 8e-06  |  Training loss = 0.1556  |  Validiation loss = 0.2377  |  Macro-averaged F1 score on dev data = 0.5916
+Epoch 20  |  Learning rate: 8e-06  |  Training loss = 0.1555  |  Validiation loss = 0.2378  |  Macro-averaged F1 score on dev data = 0.5925
+
+Early stopping not triggered. Best validation F1-score: 0.5925
+Macro-averaged F1 scores of the final model on the test data: 0.5471 
+
+--------------------------------------------------------------------------------------------------
+Setup 2:
+
+ Training with learning rate: 0.001, weight decay: 1e-05, with StepLR scheduler (step_size=9, gamma=0.1)
+
+ Model training begins... 
+
+Epoch  1  |  Learning rate: 1e-03  |  Training loss = 0.2530  |  Validiation loss = 0.3706  |  Macro-averaged F1 score on dev data = 0.3799
+Epoch  2  |  Learning rate: 1e-03  |  Training loss = 0.2108  |  Validiation loss = 0.3279  |  Macro-averaged F1 score on dev data = 0.4257
+Epoch  3  |  Learning rate: 1e-03  |  Training loss = 0.1989  |  Validiation loss = 0.3116  |  Macro-averaged F1 score on dev data = 0.4527
+Epoch  4  |  Learning rate: 1e-03  |  Training loss = 0.1923  |  Validiation loss = 0.3058  |  Macro-averaged F1 score on dev data = 0.4570
+Epoch  5  |  Learning rate: 1e-03  |  Training loss = 0.1868  |  Validiation loss = 0.2976  |  Macro-averaged F1 score on dev data = 0.4842
+Epoch  6  |  Learning rate: 1e-03  |  Training loss = 0.1832  |  Validiation loss = 0.3006  |  Macro-averaged F1 score on dev data = 0.4779
+Epoch  7  |  Learning rate: 1e-03  |  Training loss = 0.1803  |  Validiation loss = 0.2978  |  Macro-averaged F1 score on dev data = 0.4492
+Epoch  8  |  Learning rate: 1e-03  |  Training loss = 0.1767  |  Validiation loss = 0.2847  |  Macro-averaged F1 score on dev data = 0.5039
+Epoch  9  |  Learning rate: 1e-03  |  Training loss = 0.1756  |  Validiation loss = 0.2851  |  Macro-averaged F1 score on dev data = 0.5099
+Epoch 10  |  Learning rate: 1e-04  |  Training loss = 0.1666  |  Validiation loss = 0.2466  |  Macro-averaged F1 score on dev data = 0.5686
+Epoch 11  |  Learning rate: 1e-04  |  Training loss = 0.1593  |  Validiation loss = 0.2446  |  Macro-averaged F1 score on dev data = 0.5677
+Epoch 12  |  Learning rate: 1e-04  |  Training loss = 0.1579  |  Validiation loss = 0.2415  |  Macro-averaged F1 score on dev data = 0.5768
+Epoch 13  |  Learning rate: 1e-04  |  Training loss = 0.1558  |  Validiation loss = 0.2411  |  Macro-averaged F1 score on dev data = 0.5782
+Epoch 14  |  Learning rate: 1e-04  |  Training loss = 0.1543  |  Validiation loss = 0.2403  |  Macro-averaged F1 score on dev data = 0.5784
+Epoch 15  |  Learning rate: 1e-04  |  Training loss = 0.1534  |  Validiation loss = 0.2422  |  Macro-averaged F1 score on dev data = 0.5744
+Epoch 16  |  Learning rate: 1e-04  |  Training loss = 0.1519  |  Validiation loss = 0.2406  |  Macro-averaged F1 score on dev data = 0.5805
+Epoch 17  |  Learning rate: 1e-04  |  Training loss = 0.1512  |  Validiation loss = 0.2412  |  Macro-averaged F1 score on dev data = 0.5764
+Epoch 18  |  Learning rate: 1e-04  |  Training loss = 0.1501  |  Validiation loss = 0.2424  |  Macro-averaged F1 score on dev data = 0.5757
+Epoch 19  |  Learning rate: 1e-05  |  Training loss = 0.1545  |  Validiation loss = 0.2353  |  Macro-averaged F1 score on dev data = 0.5886
+Epoch 20  |  Learning rate: 1e-05  |  Training loss = 0.1512  |  Validiation loss = 0.2349  |  Macro-averaged F1 score on dev data = 0.5976
+
+Early stopping not triggered. Best validation F1-score: 0.5976
+Macro-averaged F1 scores of the final model on the test data: 0.5528 
+
